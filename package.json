@@ -1,0 +1,30 @@
+{
+  "name": "chaos-harvester-backend",
+  "version": "1.0.0",
+  "description": "Node.js + OpenAI powered backend to process unstructured data (\"chaos\") into actionable insights using silent, scheduled systems.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krushannagori/chaos-harvester-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/krushannagori/chaos-harvester-backend/issues"
+  },
+  "homepage": "https://github.com/krushannagori/chaos-harvester-backend#readme",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "node-cron": "^3.0.3",
+    "openai": "^4.95.0"
+  }
+}
